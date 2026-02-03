@@ -5,6 +5,8 @@ FROM openjdk:25-oracle
 # Set the working directory in the container
 WORKDIR /app
 
+
+
 # Copy the application's JAR file to the container
 COPY target/spring-deliveryboy.jar app.jar
 
